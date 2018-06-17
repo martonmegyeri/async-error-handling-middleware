@@ -1,6 +1,5 @@
 const error = require('./middleware/error');
 const asyncMiddleware = require('./middleware/async');
-const mongoose = require('mongoose');
 const express = require('express');
 const app = express();
 
